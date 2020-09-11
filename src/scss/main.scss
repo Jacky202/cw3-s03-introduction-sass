@@ -8,10 +8,9 @@
 
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
-
-
-
-
+@import "settings/font";
+@import "settings/colors";
+@import "settings/spacing";
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 
@@ -32,22 +31,6 @@
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
-
-
-/*---------------------- Settings ----------------------*/
-
-:root {
-  --font-primaire: 'Rubik', sans-serif;
-  --font-secondaire: 'Expletus Sans', cursive;
-
-  --couleur-primaire: #FFC107;
-
-  --couleur-noir: #222;
-  --couleur-blanc: #fff;
-
-  --marge-grand: 20px;
-  --marge-petit: 10px;
-}
 
 /*---------------------- Generic ----------------------*/
 
